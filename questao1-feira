@@ -1,1 +1,58 @@
+html
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="=UTF-8">
+        <meta name="viewport" content="width=device-width, initial - scale=1.0">
+
+    <title>garagem virtual</title>
+    </html>
+    <body>
+        <h1>Bem-vindoa a garagem virtual carros velozes</h1>
+        <h2>digite o valor do carro</h2>
+    <form>
+    
+     <let prompt="digite o valor do carro:">
+
+
+    <button type="button" onclick="adicionarACompra()"></button>
+    </select>
+
+    <label for="pagamentos">selecione a forma de pagamento</label>
+    <select name="pagamento" id="pagamento"></select>
+    <option value="financiamento"></option>
+    <option value="consórcio"></option>
+    <option value="à vista"></option>
+
+    <button type="button" onclick="adicionarFormaDePagamento()"></button>
+    </select>
+
+</form>
+    </body>
+</html>
+
+
+script
+
+
+
+let carro = [];
+
+function adicionarImposto(financiamento){
+    carro.push({financiamento});
+console.log(`${financiamento}sera de 30%{preco.tofixed(2)}.`);
+}
+function adicionarImposto(consorcio){
+    carro. push({consorcio});
+console.log(`${consorcio}sera de 15%{preco.tofixed(2)}.`);
+}
+
+function calcularTotal(){
+    let total = 30%;
+    for(financiamento){
+        total += carro.financiamento
+    }
+}
+console.log(`total imposto:{total.tofixed(2)}.`);
 
